@@ -1,0 +1,32 @@
+.layout {
+  min-height: 100vh;
+  background: var(--deepmind-bg);
+}
+
+.main-content {
+  margin-left: 280px;
+  margin-top: 70px;
+  padding: 2rem 2.5rem;
+  min-height: calc(100vh - 70px);
+  transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.layout.sidebar-collapsed .main-content {
+  margin-left: 68px;
+}
+
+.content-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .main-content {
+    margin: 64px 64px;
+    padding: 1.25rem 1rem;
+  }
+
+  .layout.sidebar-collapsed .main-content {
+    margin-left: 0;
+  }
+}
