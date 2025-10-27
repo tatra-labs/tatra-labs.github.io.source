@@ -9,7 +9,7 @@ const About = () => {
           <h1 className="about-title">About Me</h1>
         </div>
         <p className="about-subtitle">
-          Research Engineer • Machine Learning Systems • Open Science Advocate
+          10-Year R&D Leader • ML & Agentic AI Specialist • End-to-End AI Architect
         </p>
       </div>
 
@@ -183,7 +183,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Certifications */}
+        {/* Certifications
         <section className="certifications-section">
           <h2 className="section-title">Professional Certifications</h2>
           <div className="certifications-grid">
@@ -208,7 +208,7 @@ const About = () => {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* Contact Section */}
         <section className="contact-section">
@@ -270,7 +270,7 @@ const About = () => {
                 </div>
               </a>
 
-              <a
+              {/* <a
                 href={profile.contact.linkedin}
                 className="contact-card"
                 target="_blank"
@@ -291,7 +291,7 @@ const About = () => {
                   <span className="contact-label">LinkedIn</span>
                   <span className="contact-value">Connect</span>
                 </div>
-              </a>
+              </a> */}
 
               <a
                 href={profile.contact.twitter}
@@ -316,7 +316,7 @@ const About = () => {
                 </div>
               </a>
 
-              <a
+              {/* <a
                 href={profile.contact.facebook}
                 className="contact-card"
                 target="_blank"
@@ -337,7 +337,7 @@ const About = () => {
                   <span className="contact-label">Facebook</span>
                   <span className="contact-value">Connect</span>
                 </div>
-              </a>
+              </a> */}
 
               <a
                 href={profile.contact.medium}

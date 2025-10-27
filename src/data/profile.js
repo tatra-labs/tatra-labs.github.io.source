@@ -1,37 +1,41 @@
 export const profile = {
-  name: "Dr. Alex Morgan",
+  name: "Tatra Labs",
   title: "AI Research Engineer",
   avatar:
-    "https://ui-avatars.com/api/?name=Alex+Morgan&size=200&background=2C5282&color=fff&bold=true",
+    "https://ui-avatars.com/api/?name=Tatra+Labs&size=200&background=2C5282&color=fff&bold=true",
   bio: `
-    <p>Research engineer specializing in machine learning systems, natural language processing, and large language models. Currently focused on developing efficient training methodologies and deployment strategies for production ML systems.</p>
+    <p>I am a research-driven machine learning engineer with nearly a decade of hands-on experience spanning deep learning, reinforcement learning, conversational and agentic AI, and large-scale production systems. My career bridges the gap between cutting-edge research and real-world deployment: from pioneering training and fine-tuning methods for transformer and agent-based models, to architecting end-to-end workflows that empower autonomous AI agents across complex domains.</p>
     
-    <p>Extensive experience in applied AI research with published work on neural architecture optimization, distributed training systems, and transformer-based models. Primary research interests include model compression, federated learning, and interpretable AI.</p>
+    <p>I excel at designing scalable model training strategies (especially LLM), deploying robust ML systems in enterprise environments, and building agentic AI that orchestrates tools, data-flows, and conversational interfaces. With a strong foundation in software engineering, MLOps, and infrastructure, I lead projects from prototype to production—delivering enterprise-grade AI that fuels innovation.</p>
     
-    <p>Active contributor to open-source ML frameworks and author of peer-reviewed publications in top-tier conferences. Passionate about bridging the gap between research and production systems.</p>
+    <p>Passionate about the frontier of AI, I thrive on verifying and implementing research outcomes, mentoring teams to level up their capabilities, and creating systems that combine algorithmic advances with seamless integration into real business workflows.</p>
   `,
   currentFocus: [
     {
-      area: "Efficient LLM Training",
+      area: "Agentic & Conversational Voice Agent Systems",
       description:
-        "Developing novel optimization techniques for reducing computational costs in large language model training, focusing on gradient checkpointing and mixed-precision strategies.",
+        "Building intelligent voice-agent architectures that integrate multi-modal inputs (speech, text, sensor data) with conversational AI, autonomous tool-calling and workflow orchestration. Focused on designing robust voice interfaces that operate fluently across mobile, wearable and cloud-scale deployments.",
     },
     {
-      area: "Federated Learning Systems",
+      area: "Research Assistance & Document-Processing Frameworks",
       description:
-        "Designing privacy-preserving distributed learning architectures for cross-organizational collaboration while maintaining data sovereignty.",
+        "Developing frameworks that accelerate research and engineering productivity: automatic ingestion of scholarly papers, technical reports and enterprise documents; semantic-graph construction; knowledge-extraction pipelines; interactive systems that help engineers and researchers quickly understand, verify and act on new work with minimal manual effort.",
+    },
+    {
+      area: "Efficient Pre-training & Fine-tuning Paradigms",
+      description:
+        "Architecting next-generation training workflows that reduce compute, memory- and time-costs for large language models, while maintaining SOTA alignment, safety and generalization. Leveraging parameter-efficient fine-tuning (PEFT) and memory-efficient techniques documented in recent studies to achieve more rapid adaptation of foundational models.",
     },
   ],
   researchPhilosophy: `I believe in research that bridges theory and practice. Every algorithmic innovation should be validated in real-world systems, and every production challenge should inspire theoretical investigation. My work emphasizes reproducibility, rigorous empirical evaluation, and open science principles.`,
   researchInterests: [
-    "Model Compression & Quantization",
-    "Federated & Privacy-Preserving ML",
-    "Neural Architecture Search",
-    "Distributed Training Systems",
-    "Interpretable AI & Explainability",
-    "Transfer Learning & Few-Shot Learning",
-    "Multi-Modal Learning",
-    "Efficient Transformers",
+    "Context Engineering & Retrieval-Augmented Generation (RAG)",
+    "Multi-Modal Learning (vision, speech, text, sensor fusion)",
+    "Lightweight & Efficient Large Language Models (LLMs)",
+    "AI Governance & Responsible Systems",
+    "Interpretability & Explainability in Deep/Agentic Models",
+    "Real-Time & Edge-Deployable AI Agents",
+    "Domain-Specific LLMs (e.g., healthcare, legal, industrial)",
   ],
   technicalSkills: {
     frameworks: [
@@ -42,27 +46,22 @@ export const profile = {
       "Ray",
       "MLflow",
     ],
-    languages: ["Python", "C++", "CUDA", "Rust", "Julia", "SQL"],
+    languages: ["Python", "SQL", "JavaScript / TypeScript", "C#", "C++", "CUDA", "Rust", "Julia", "GoLang"],
     domains: [
-      "Natural Language Processing",
-      "Computer Vision",
-      "Reinforcement Learning",
-      "Time Series Analysis",
+      "Generative AI & Large Language Models",
+      "Agentic Conversational & Document AI",
+      "Deep Learning & Reinforcement Learning",
+      "Time-Series & Wearable Sensor Analytics",
     ],
     infrastructure: [
-      "Docker",
-      "Kubernetes",
-      "AWS",
-      "GCP",
-      "Distributed Computing",
-      "MLOps Pipelines",
+      "Docker & Kubernetes",
+      "AWS (S3, EC2, Lambda, EKS, SageMaker)",
+      "GCP (Vertex AI, BigQuery)",
+      "Azure",
+      "MLOps & Model Governance (ArgoCD, CircleCI, CometML, Evidently AI)",
+      "Distributed Streaming & Batch (Kafka, Spark, Databricks)",
+      "Vector Databases (Pinecone, Weaviate, FAISS, Qdrant)",
     ],
-  },
-  researchMetrics: {
-    publications: "15+",
-    citations: "1,200+",
-    hIndex: "12",
-    openSourceProjects: "8",
   },
   speaking: [
     "Guest lectures on ML systems at various institutions",
